@@ -1,0 +1,6 @@
+stages:
+- name: compile
+  steps:
+  - applyYamlConfig:
+      path: ./test.yaml
+timeout: 60
